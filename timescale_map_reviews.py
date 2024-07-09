@@ -7,6 +7,9 @@ from folium.plugins.timeline import Timeline, TimelineSlider
 from folium.plugins import TimestampedGeoJson
 
 # Configure the variables below as well as on lines 69-71 for the desired map
+# The values set here will generate a map centered on the US with zoom level
+# such that the lower 48 are visible.
+# The filter distance limit is large enough to include anything in that same area.
 
 # file should be in the same directory as this script file, set the name here
 file_name = 'reviews.json'
